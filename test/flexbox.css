@@ -1,0 +1,48 @@
+body{
+        background-color: aqua;
+}
+
+.granny{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 1200px;
+        align-items: flex-start;
+
+
+}
+
+/*  # Refererer til et ID, kna kun bruges en gang*/
+#kasse1 {
+      background-color: blue;
+      width: 50%;
+}
+
+#kasse2 {
+      background-color: green;
+      width: 50%;
+}
+
+.kasse3{
+      background-color: orange;
+      width: ;
+      margin: 40px;
+      padding: 20px;
+      border: 2px dotted blue;
+}
+.special{
+      order: -1;
+}
+.ekstra{
+      order: 1;
+}
+
+/*  . Refererer til en class, kan bruges flere gange*/
+.merp{
+      color: blue;
+}
+
+.highlight{
+
+      background-color: yellow;
+}
